@@ -322,29 +322,30 @@ def create_plot(my_tree):
 
 # ========== 运行：建树 + 绘图 ==========
 # 示例数据集：天气与打球 (Play Tennis)
-weather_data = [
-    ['Sunny', 'Hot', 'High', False, 'No'],
-    ['Sunny', 'Hot', 'High', True, 'No'],
-    ['Overcast', 'Hot', 'High', False, 'Yes'],
-    ['Rain', 'Mild', 'High', False, 'Yes'],
-    ['Rain', 'Cool', 'Normal', False, 'Yes'],
-    ['Rain', 'Cool', 'Normal', True, 'No'],
-    ['Overcast', 'Cool', 'Normal', True, 'Yes'],
-    ['Sunny', 'Mild', 'High', False, 'No'],
-    ['Sunny', 'Cool', 'Normal', False, 'Yes'],
-    ['Rain', 'Mild', 'Normal', False, 'Yes'],
-    ['Sunny', 'Mild', 'Normal', True, 'Yes'],
-    ['Overcast', 'Mild', 'High', True, 'Yes'],
-    ['Overcast', 'Hot', 'Normal', False, 'Yes'],
-    ['Rain', 'Mild', 'High', True, 'No']
-]
+#weather_data = [
+#    ['Sunny', 'Hot', 'High', False, 'No'],
+#    ['Sunny', 'Hot', 'High', True, 'No'],
+#    ['Overcast', 'Hot', 'High', False, 'Yes'],
+#    ['Rain', 'Mild', 'High', False, 'Yes'],
+#    ['Rain', 'Cool', 'Normal', False, 'Yes'],
+#    ['Rain', 'Cool', 'Normal', True, 'No'],
+#    ['Overcast', 'Cool', 'Normal', True, 'Yes'],
+#    ['Sunny', 'Mild', 'High', False, 'No'],
+#    ['Sunny', 'Cool', 'Normal', False, 'Yes'],
+#    ['Rain', 'Mild', 'Normal', False, 'Yes'],
+#    ['Sunny', 'Mild', 'Normal', True, 'Yes'],
+#    ['Overcast', 'Mild', 'High', True, 'Yes'],
+#    ['Overcast', 'Hot', 'Normal', False, 'Yes'],
+#    ['Rain', 'Mild', 'High', True, 'No']
+#]
 
 # 特征标签
-labels = ['Outlook', 'Temperature', 'Humidity', 'Windy']
+#labels = ['Outlook', 'Temperature', 'Humidity', 'Windy']
 
 # 生成决策树
-tree = creat_tree(weather_data, labels[:])  # 注意传入拷贝 labels[:]
-create_plot(tree)lenspath = (r'C:\Users\Leah\Desktop\tree\lenses.txt')
+#tree = creat_tree(weather_data, labels[:])  # 注意传入拷贝 labels[:]
+
+lenspath = (r'C:\Users\Leah\Desktop\tree\lenses.txt')
 
 def load_data(filepath):
     data=[]
