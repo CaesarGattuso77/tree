@@ -345,6 +345,7 @@ def create_plot(my_tree):
 # 生成决策树
 #tree = creat_tree(weather_data, labels[:])  # 注意传入拷贝 labels[:]
 
+
 lenspath = (r'C:\Users\Leah\Desktop\tree\lenses.txt')
 
 def load_data(filepath):
